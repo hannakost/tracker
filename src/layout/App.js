@@ -6,8 +6,8 @@ class App extends Component {
         super(props);
 
         this.state = {
-          todoList: [],
-          todoInput: 'first item',
+          todoInput:'',
+          todoList: []
         };
     }
     addTodo(){
